@@ -1,10 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Login from './pages/Login';
+import GlobalStyles from './styles/GlobalStyles';
 
 function App() {
   return (
-  <div>Olá</div>
+    <>
+      <Login />
+      <GlobalStyles />
+    </>
   );
 }
 
